@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.1411362848">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.1411362848" moduleId="org.eclipse.cdt.core.settings" name="デフォルト">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GmakeErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.CWDLocator" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="${ProjName}" buildProperties="" description="" id="com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.1411362848" name="デフォルト" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.1411362848.1368202957" name="/" resourcePath="">
+						<toolChain id="com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.89513738" name="GCC for Renesas RX" superClass="com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate">
+							<option id="com.renesas.cdt.managedbuild.gcc.core.option.optimization.fdatasections.1046487793" name="Data sections (-fdata-sections)" superClass="com.renesas.cdt.managedbuild.gcc.core.option.optimization.fdatasections" useByScannerDiscovery="true" value="true" valueType="boolean"/>
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.renesas.cdt.managedbuild.gcc.core.targetPlatform.1563044551" isAbstract="false" osList="all" superClass="com.renesas.cdt.managedbuild.gcc.core.targetPlatform"/>
+							<builder id="com.renesas.cdt.managedbuild.gcc.core.builder.1628433794" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="GCC for Renesas Builder" superClass="com.renesas.cdt.managedbuild.gcc.core.builder"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.libgen.1223414364" name="Library Generator" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.libgen">
+								<option id="com.renesas.cdt.managedbuild.gcc.rx.option.selectlibrary.555883844" name="Select Library" superClass="com.renesas.cdt.managedbuild.gcc.rx.option.selectlibrary" value="com.renesas.cdt.managedbuild.gcc.core.option.librarygenerator.settings.selectLibrary.newLib" valueType="enumerated"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.compilerC.1853807412" name="Compiler" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.compilerC">
+								<inputType id="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.605067032" superClass="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.compilerCPP.1964206499" name="Compiler CPP" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.compilerCPP">
+								<inputType id="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.513832067" superClass="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c"/>
+								<inputType id="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.466868086" superClass="com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.assembler.1660938937" name="Assembler" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.assembler">
+								<option id="com.renesas.cdt.managedbuild.gcc.core.option.assembler.source.usepreprocessor.371236314" name="Use preprocessor" superClass="com.renesas.cdt.managedbuild.gcc.core.option.assembler.source.usepreprocessor" useByScannerDiscovery="false"/>
+								<inputType id="com.renesas.cdt.managedbuild.gcc.core.inputType.assembler.516772545" superClass="com.renesas.cdt.managedbuild.gcc.core.inputType.assembler"/>
+							</tool>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.linker.53246010" name="Linker" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.linker"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.linker.1197962104" name="Linker CPP" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.cpp.linker"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.objcopy.63605436" name="Objcopy" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.objcopy"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.archiver.2118561951" name="Archiver" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.archiver"/>
+							<tool id="com.renesas.cdt.managedbuild.gcc.rx.tool.printsize.309795551" name="Print Size" superClass="com.renesas.cdt.managedbuild.gcc.rx.tool.printsize">
+								<option id="com.renesas.cdt.managedbuild.gcc.core.option.printsize.format.1247180782" name="Size Format" superClass="com.renesas.cdt.managedbuild.gcc.core.option.printsize.format" useByScannerDiscovery="false"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="com.renesas.cdt.managedbuild.core.toolchainInfo">
+				<option id="toolchain.id" value="RENESAS_GCC_RX"/>
+				<option id="toolchain.version" value="8.3.0.202202"/>
+				<option id="toolchain.enable" value="true"/>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+			<storageModule moduleId="com.renesas.cdt.managedbuild.core.boardInfo"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="ToppersRX72N.null.984622540" name="ToppersRX72N"/>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.1411362848;com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.1411362848.1368202957;com.renesas.cdt.managedbuild.gcc.rx.tool.compilerCPP.1964206499;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.cpp.466868086">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.1411362848;com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.1411362848.1368202957;com.renesas.cdt.managedbuild.gcc.rx.tool.compilerCPP.1964206499;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.513832067">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.1411362848;com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.1411362848.1368202957;com.renesas.cdt.managedbuild.gcc.rx.tool.compilerC.1853807412;com.renesas.cdt.managedbuild.gcc.core.inputType.compiler.c.605067032">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope"/>
+	<storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+</cproject>

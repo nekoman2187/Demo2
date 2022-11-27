@@ -1,0 +1,14 @@
+doxygen/doxygen_new_line_after_brief=true
+doxygen/doxygen_use_brief_tag=false
+doxygen/doxygen_use_javadoc_tags=true
+doxygen/doxygen_use_pre_tag=false
+doxygen/doxygen_use_structural_commands=false
+eclipse.preferences.version=1
+environment/project/com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.990132691/CWD/delimiter=;
+environment/project/com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.990132691/CWD/operation=replace
+environment/project/com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.990132691/CWD/value=D\:\\ORG\\Toppers\\Toppers\\toppers_app
+environment/project/com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.990132691/PWD/delimiter=;
+environment/project/com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.990132691/PWD/operation=replace
+environment/project/com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.990132691/PWD/value=D\:\\ORG\\Toppers\\Toppers\\toppers_app
+environment/project/com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.990132691/append=true
+environment/project/com.renesas.cdt.managedbuild.gcc.rx.toolChainUpdate.990132691/appendContributed=true
